@@ -26,7 +26,7 @@ def landing_page():
     return render_template("landing_page.html")
 
 @app.route('/home')
-def home_page():
+def home():
     return render_template("header_footer.html")
 if __name__ == "__main__":
     app.run(debug=True) 

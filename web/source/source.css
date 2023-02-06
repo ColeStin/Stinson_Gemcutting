@@ -39,6 +39,14 @@
 }
 .main_body{
     background-color: #dcdcdc;
+    font-family: Serifa BT;
+}
+
+.slogan{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: blue;
 }
 
 .landing_photo_card{
@@ -46,13 +54,13 @@
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-    font-family: Serifa BT;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
 }
 
 .landing_photo_card:hover {
     background-color: #d3cece;
-    transform: scale(1.1); 
+    transform: scale(1.05); 
+    overflow: hidden;
 }
 
 .landing_page_photo{
@@ -64,8 +72,8 @@
 }
 .landing_page_photo img{
     flex-shrink: 2;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 250px;
+    max-width: 250px;
     border: black solid;
     border-width: 8px;
     border-radius: 5px;
@@ -91,4 +99,29 @@
     left: 0;
     top: 0;
     font-size: 30px;
+}
+.enter{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 40%;
+}
+.enter:hover{
+    background-color: #d3cece;
+    transform: scale(1.05); 
+    overflow: hidden;
+}
+
+.break{
+    height: 10px;
+    width: 100%;
+    background-image:url("/img/line_rainbow_break.jpg");
+    image-rendering: auto;
+    overflow: wrap;
+    background-size: cover ;
 }
