@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.header img{
+    flex-shrink: 1;
+    min-width: 100%;
+    min-height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav_round_bottom{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.main_body{
+    background-color: #dcdcdc;
+    font-family: Serifa BT;
+}
+
+.header_navbar{
+    font-size: 20px;
+}

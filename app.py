@@ -27,6 +27,11 @@ def landing_page():
 
 @app.route('/home')
 def home():
-    return render_template("header_footer.html")
+    return render_template("home.html")
+
+@app.route('/all_gems')
+def all_gems():
+    return render_template("all_gems.html")
+
 if __name__ == "__main__":
     app.run(debug=True) 
